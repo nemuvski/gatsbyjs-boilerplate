@@ -1,0 +1,6 @@
+.cache
+public
+__generated__
+.eslintrc.js
+.prettierrc.js
+graphql.config.js

@@ -1,0 +1,39 @@
+{
+  "version": "0.1.0",
+  "name": "gatsbyjs-boilerplate",
+  "private": true,
+  "scripts": {
+    "clean": "gatsby clean",
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "format": "prettier --check './**/*.{cjs,js,jsx,ts,tsx}'",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gatsby": "^5.7.0",
+    "gatsby-plugin-image": "^3.7.0",
+    "gatsby-plugin-sharp": "^5.7.0",
+    "gatsby-plugin-sitemap": "^6.7.0",
+    "gatsby-source-filesystem": "^5.7.0",
+    "gatsby-transformer-sharp": "^5.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-regexp": "^1.12.0",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  }
+}
