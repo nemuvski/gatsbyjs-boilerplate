@@ -26,6 +26,9 @@ const config: GatsbyConfig = {
     typesOutputPath: 'src/__generated__/gatsby-types.d.ts',
     generateOnBuild: false,
   },
+  flags: {
+    DEV_SSR: true,
+  },
 
   siteMetadata: {
     title: siteBaseInfo.title,
